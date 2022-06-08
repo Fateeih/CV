@@ -1,0 +1,46 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: palegreen;
+    background-size: cover;
+    text-align: center;
+    
+}
+
+.form h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.form input{
+    font-size: 16px;
+    width: 20%;
+    border: 0;
+    border-radius: 5px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+ .drop1{
+max-width: 1000px;
+margin: auto;
+} 
+.select-box{}
+.select-box select{
+    height: 42px;
+    padding: 10px 15px;
+    line-height: 22px;
+    font-size: 16px;
+}
+.select-box:after{}
+
+#address{
+     resize: none;
+}
+#submit{
+    background-color: antiquewhite;
+}
